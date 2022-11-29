@@ -12,22 +12,50 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img//favicon-16x16.png">    
     <link rel="manifest" href="assets/img/site.webmanifest">
 
+    <link rel="preload" href="assets/img/creative (2).jpg" as="image">
     <link rel="stylesheet" href="assets/css/global.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     
     <!-- Google Analytics code goes here -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M43YF84J1G"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-M43YF84J1G');
+    </script>
 
 </head>
+
 <body>
-<h1><b>Rauyalty Web Agency</b></h1>
-<h2>Web / UI Designer</h2>
+    <div id="hero-1">
+    <header class="hero-block text-center">
+        <div class="hero-text-container">
+            <h1 class="slide-in-elliptic-top-fwd">RauyalTay</h1>
+            <h2 class="slide-in-left">Creative Web / UI Developer</h2>
+        </div>
+    
+        <div class="container-btn">
+            <a href="#" class="btn btn-solid btn-pill"><i class="fas fa-shopping-cart"></i><span>Portfolio</span></a>
+            <a href="#" class="btn btn-outline btn-pill"><i class="fas fa-arrow-right"></i><span>Contact</span></a>
+        </div>
+    
+        <div class="hero-bg-media">
+            <video loop playsinline muted autoplay poster="assets/video/creative (2).jpg" class="background-video" disablepictureinpicture preload="auto"> 
+            <source src="assets/video/rauyalt video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="bg-overlay"></div>
+    </div>
+    </header>
 
-<img src="assets/img/creative (2).jpg" alt="Rauyalty Web Agency/ Web / UI Designer">
-
-<p>I created this website to showcase some of my recent web design work.</p> 
+<p>I created this website to showcase some of my recent web design work.</p>
 
 <h3>Sample Web Pages</h3>
 <p><a href="exercises/page-1.html">A Tale of Two Cities</a></p>
@@ -38,8 +66,14 @@
 <p><a href="exercises/page-6.html">Irish Tourism</a></p> 
 <p><a href="exercises/page-7.html">Smoothies</a></p> 
 <p><a href="exercises/page-8.html">Software Analytics</a></p>
+<p><a href="exercises/page-9.html5.html">The Box Model</a></p>
+<p><a href="exercises/hero-text.html">Hero block with animated text</a></p> 
+<p><a href="exercises/hero-video.html">Hero block with animated video</a></p>
+<p><a href="portfolio/van-gogh/index.html">Van Gogh portfolio</a></p>
+<p><a href="portfolio/fashion/index.html">Fashion</a></p>  
 
 <img src="exercises/assets/img/Coding.png" alt="Busy building the best websites">
     
 </body>
 </html>
+
