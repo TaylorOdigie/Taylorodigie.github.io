@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Syle 1</title>
+    <title>Web Syle 2</title>
     <meta name="description" content="Sample web page description goes here.">
 
 	<!-- Preload large image -->
 
 	<!-- Stylesheets -->
     <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
-    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/custom1.css" />
 
 	<!-- Google Fonts -->
 
@@ -25,8 +25,7 @@
 
 
 <body>
-
-    <nav class="theme-dark menu-sticky menu-drop-shadow">
+    <nav class="theme-light">
         <div class="container-menu menu-desktop">
             <a href="#" class="brand">
                 <img src="assets/img/website-logo.png" alt="Sample website logo">
@@ -43,35 +42,36 @@
                 <ul class="links-wrapper">
                     <li><a href="#">Home</a></li>
                     <li><a href="portfolio/index.html">Portfolio</a></li>
-                    <li><a class="btn btn-solid btn-pill btn-shadow" id="btn-cta" href="contact/index.html"><i class="fa-solid fa-user"></i> <span>Contact</span></a></li>
+                    <li><a class="btn btn-solid btn-pill btn-shadow" id="btn-cta" href="contact/index.html"><i class="fa-solid fa-chevron-right"></i> <span>Contact</span></a></li>
                 </ul>
             </div>
 
         </div>
     </nav>
 
-    <header class="theme-dark hero-bg text-center-desktop text-center-mobile desktop-min-height-90vh header-after-menu-sticky">
+	<!-- header starts here -->
 
-        <div class="container-text reveal-slide-up-header">
-            <h1 class="text-shadow">Mary Smith</h1>
-            <h2 class="text-shadow">I create digital experiences to promote products, services and events.</h2>
+    <header class="theme-light cols-2-half text-center-mobile desktop-min-height-70vh">
+
+        <div class="col-2 col-text">
+            <h1>Mary Smith</h1>
+            <h2">I create digital experiences to promote products, services and events.</h2>
+
+        	<div class="container-btn">
+                <a href="portfolio/index.html" class="btn btn-solid btn-soft"><i class="fa-solid fa-folder-open"></i><span>View portfolio</span></a>
+                <a href="contact/index.html" class="btn btn-outline btn-soft"><i class="fa-solid fa-envelope"></i><span>Get in touch</span></a>
+            </div>
+
         </div>
 
-        <div class="container-btn reveal-slide-up-header">
-            <a href="portfolio/index.html" class="btn btn-solid btn-soft"><i class="fa-solid fa-folder-open"></i><span>View portfolio</span></a>
-            <a href="contact/index.html" class="btn btn-outline btn-soft"><i class="fa-solid fa-envelope"></i><span>Get in touch</span></a>
+        <div class="col-2 col-visual desktop-bleed-all">
+				<figure>
+					<img src="assets/img/hair.png" alt="Placeholder image">
+				</figure>
+				
         </div>
-
-        <div class="container-media">
-            <img src="assets/img/business-woman-waiting.jpg" alt="Placeholder image">
-        </div>
-
-        <div class="container-overlay"></div>
 
     </header>
-
-    <main>
-
 
 	<!-- section starts here -->
 
@@ -80,26 +80,30 @@
     <h3>Below you can see some examples of my recent work. Check out my complete portfolio.</h3></div>
 
     <!-- Begin three-column flexbox grid -->
-    <div class="flex-cols-3 cols-background cols-padding cols-shadows cols-borders-width-1">
+    <div class="flex-cols-3 cols-background cols-padding cols-corners-soft cols-shadows">
 
+        
         <div class="col-3">
-            <figure class="cols-fig-padding fig-shadows-box fig-corners-soft">
+            <figure>
                 <img src="assets/img/project-van-gogh.png" alt="Placeholder image">
-            </figure><h3>Vincent Van Gogh</h3>
+            </figure>
+            <h3>Vincent Van Gogh</h3>
             <p>A summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.</p>
             <a href="portfolio/van-gogh/index.html" class="btn btn-solid btn-soft btn-shadow"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
         <div class="col-3">
-            <figure class="cols-fig-padding fig-shadows-box fig-corners-soft">
+            <figure>
                 <img src="assets/img/project-smoothie.jpg" alt="Placeholder image">
-            </figure><h3>Smooth Smoothies</h3>
+            </figure>
+            <h3>Smooth Smoothies</h3>
             <p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
-            <a href="portfolio/smoothies/index.html" class="btn btn-solid btn-soft btn-shadow"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
+        <a href="portfolio/smoothies/index.html" class="btn btn-solid btn-soft btn-shadow"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
         <div class="col-3">
-            <figure class="cols-fig-padding fig-shadows-box fig-corners-soft">
-                <img src="assets/img/project-fashion.jpg" alt="Placeholder image" alt="Placeholder image">
-            </figure><h3>Snazzy Fashion</h3>
+            <figure>
+                <img src="assets/img/project-fashion.jpg" alt="Placeholder image">
+            </figure>
+            <h3>Snazzy Fashion</h3>
             <p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
         <a href="portfolio/fashion/index.html" class="btn btn-solid btn-soft btn-shadow"><span>Learn more</span><i class="fas fa-arrow-right"></i></a></div>
 
@@ -107,6 +111,8 @@
     <!-- End three-column flexbox grid -->
 
 </section>
+
+<!-- section ends here -->
 
     <!-- footer -->
     
