@@ -1,0 +1,44 @@
+/* Add your custom CSS here */
+
+header.theme-light { background-color: var(--yellow-300) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--yellow-300) }
+nav.theme-light,
+nav.theme-light ul.links-wrapper.active { background-color: var(--yellow-300) }
+
+.section-selector-1 { background-color: var(--pink-400) }
+.section-selector-1 .col-1 h3 { color: var(--black-000) }
+.section-selector-1 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(246,224,94,0.4) 4px 10px 16px 0 }
+.section-selector-1 .col-1 h2 { color: var(--yellow-400) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--yellow-400) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--rose-400) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--black-000) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--black-000) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--pink-600) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--black-000) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--yellow-400) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--red-400) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--yellow-300) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--pink-600) }
+
+
+footer.theme-dark { background-color: var(--yellow-300)}
+
+header h1 {
+    font-size: calc(44px + (120 - 44) * (100vw - 320px) / (1920 - 320)); 
+    
+}
