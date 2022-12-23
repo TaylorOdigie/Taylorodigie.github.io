@@ -1,0 +1,80 @@
+/* Add your custom CSS here */
+body {font-family: 'Playfair Display', serif;}
+header.theme-light { background-color: var(--cyan-400) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--black-000) }
+nav.theme-dark ul.links-wrapper li a:focus,
+nav.theme-dark ul.links-wrapper li a:hover,
+nav.theme-dark ul.links-wrapper li a:active { color: var(--cyan-400) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--cyan-300) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--cyan-400) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--cyan-300) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--cyan-500) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { border-color: var(--cyan-400) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--black-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--cyan-400) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { color: var(--black-000) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { background-color: var(--cyan-400) }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active { background-color: var(--cyan-600) } }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active { background-color: var(--cyan-600) } }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active { background-color: var(--black-000) } }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active { background-color: var(--black-000) } }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--cyan-400) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--blue-700) }
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-1,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-2,
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle .bar-3 { background-color: var(--blue-700) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:link,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited { color: var(--trend-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--sky-400) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--blue-700) }
+
+
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--cyan-400) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--blue-700) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--blue-700) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--blue-800) }
+.section-selector-1 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(6,182,212,0.4) 10px 10px 16px 0 }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--blue-700) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--cyan-400) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--sky-400) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--cyan-400) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--blue-700) }
+
+footer.theme-dark { background-color: var(--cyan-400)}
+
+footer header h1 {
+    font-size: calc(44px + (120 - 44) * (100vw - 320px) / (1920 - 320)); 
+    
+}
+footer.theme-dark h2 {color: black}
+footer.theme-dark h3 {color: black}
+

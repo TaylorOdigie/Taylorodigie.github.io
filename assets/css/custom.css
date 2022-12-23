@@ -96,3 +96,6 @@ nav.theme-dark a#btn-cta:active { border-color: var(--purple-600) }
 nav.theme-dark a#btn-cta:focus,
 nav.theme-dark a#btn-cta:hover,
 nav.theme-dark a#btn-cta:active { color: var(--purple-600) }
+
+footer.theme-dark h2 {color: cyan}
+footer.theme-dark h3 {color:cyan}

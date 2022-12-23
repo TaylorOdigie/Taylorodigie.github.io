@@ -37,6 +37,8 @@ nav.theme-light ul.links-wrapper.active { background-color: var(--yellow-300) }
 
 
 footer.theme-dark { background-color: var(--yellow-300)}
+footer.theme-dark h2 {color: deeppink}
+footer.theme-dark h3 {color:deeppink}
 
 header h1 {
     font-size: calc(44px + (120 - 44) * (100vw - 320px) / (1920 - 320)); 
