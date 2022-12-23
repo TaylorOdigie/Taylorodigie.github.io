@@ -51,7 +51,13 @@ p {
 }
 /* Images */
 img {
-    margin-bottom: 32px;
+    margin-bottom: 42px;
     /*Soften corners of images*/
-    border-radius: 15px;
+    border-radius: 30px;
+}
+
+img {
+    margin-bottom: 42px;
+    /* Drop shadow effect at right and bottom of image */
+    box-shadow: 8px 10px 8px #888;
 }

@@ -99,3 +99,28 @@ nav.theme-dark a#btn-cta:active { color: var(--purple-600) }
 
 footer.theme-dark h2 {color: cyan}
 footer.theme-dark h3 {color:cyan}
+
+.section-selector-2 input, .section-selector-6 button {
+    font: inherit;
+    border: 0;
+  }
+  .section-selector-2 input:focus, .section-selector-6 button:focus {
+    outline: none;
+  }
+
+  .section-selector-2 form {
+    display: flex;
+    grid-column: 2;
+  }
+
+  .section-selector-2 input {
+    flex-grow: 1;
+    padding: 0.5em 0.75em;
+    border: solid 1px #888;
+    margin-right: 12px;
+  }
+
+  .section-selector-2  button {
+    padding: 0.5em 0.75em;
+    background: #8fef9f;
+  }
