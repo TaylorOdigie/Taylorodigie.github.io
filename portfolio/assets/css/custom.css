@@ -1,0 +1,101 @@
+/* Add your custom CSS here */
+
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--purple-500) }
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:active { color: var(--purple-800) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { color: var(--white-000) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--black-000) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { border-color: var(--black-000) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { background-color: var(--gray-400) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { color: var(--gray-700) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--sky-400) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--sky-500) }
+nav.theme-dark .nav-toggle { background-color: var(--sky-400) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--sky-600) }
+nav.theme-dark .nav-toggle .bar-1,
+nav.theme-dark .nav-toggle .bar-2,
+nav.theme-dark .nav-toggle .bar-3 { background-color: var(--blue-600) }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active li a:link,
+nav.theme-dark ul.links-wrapper.active li a:visited { color: var(--sky-600) } }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active a#btn-cta:link,
+nav.theme-dark ul.links-wrapper.active a#btn-cta:visited { color: var(--sky-050) } }
+@media (max-width: 767px) { nav.theme-dark ul.links-wrapper.active a#btn-cta:link,
+nav.theme-dark ul.links-wrapper.active a#btn-cta:visited { background-color: var(--sky-500) } }
+
+.section-selector-1 { background-color: var(--purple-300) }
+.section-selector-1 .col-1 h2 { color: var(--purple-500) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { background-color: var(--purple-300) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--cyan-050) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--cyan-050) }
+.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] h3 { color: var(--purple-800) }
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { background-color: var(--purple-300) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { border-color: var(--cyan-300) }
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited { color: var(--purple-700) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { color: var(--cyan-700) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { border-color: var(--purple-600) }
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active { background-color: var(--cyan-300) }
+
+.section-selector-1 .col-1 h3 { color: var(--blue-050) }
+.section-selector-1 div[class^='flex-cols-'].cols-shadows div[class^='col-'] { box-shadow: rgba(34,211,238,0.4) 4px 10px 16px 0 }
+.theme-light.section-selector-1 div[class^='flex-cols-'] div[class^='col-'] { border-color: var(--purple-300) }
+
+
+footer.theme-dark { background-color: var(--purple-500)}
+
+header h1 {
+    font-size: calc(44px + (120 - 44) * (100vw - 320px) / (1920 - 320)); 
+    
+}
+
+header.theme-light { background-color: var(--cyan-400) }
+header.theme-light h1 { color: var(--purple-500) }
+header.theme-light h2 { color: var(--purple-500) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { background-color: var(--cyan-400) }
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited { color: var(--cyan-400) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--purple-500) }
+nav.theme-dark a#btn-cta:link,
+nav.theme-dark a#btn-cta:visited { border-color: var(--cyan-300) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { border-color: var(--purple-600) }
+nav.theme-dark a#btn-cta:focus,
+nav.theme-dark a#btn-cta:hover,
+nav.theme-dark a#btn-cta:active { color: var(--purple-600) }
+
+footer.theme-dark h2 {color: cyan}
+footer.theme-dark h3 {color:cyan}
